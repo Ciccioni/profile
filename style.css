@@ -1,0 +1,85 @@
+html {
+    display: block;
+}
+
+body {
+	background-color:#F7F9FC;
+	font-family: 'Roboto', sans-serif;
+	}
+
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	color: #6B72E1;
+	font-size: 20px;
+}
+
+p {
+	font-size: 17px;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: rgba(0,0,0,0.8)
+}
+
+a {
+	font-size: 16px;
+	color: white;
+	background-color: #6B72E1;
+	text-decoration: none;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.inline-list {
+	display: inline;
+	list-style: none;
+	padding-left: none;
+}
+
+.inline-list li {
+	display: inline;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#introduction a  {
+	padding: 15px 20px;
+	border-radius: 4px;
+	background-color: #6B72E1;
+}
+
+#introduction p  {
+	margin-bottom: 40px;
+}
+
+#rrss a {
+	font-size: 40	px;
+	background-color: rgba(230,230,230);
+	padding: 8px;
+	color: #6B72E1;
+
+}
+
+#general  {
+	width: 70%;
+	margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .#general {
+	width: 500px;
+	margin: 0 auto;
+  }
